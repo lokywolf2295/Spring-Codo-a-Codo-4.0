@@ -37,6 +37,17 @@ public class Poject2Application {
 
     }
 
+    public void verificarEdad1(){
+        if(edad>27){
+            System.out.println("Es mayor de edad");
+        }else{
+            System.out.println("Es menor de edad");
+        }
+    }
+
+    public void verificarEdad2(){
+        System.out.println(edad>21 ? "Es mayor de edad":"Es menor de edad");
+    }
     public static void main(String[] args) {
         SpringApplication.run(Poject2Application.class, args);
 
@@ -45,5 +56,9 @@ public class Poject2Application {
         project.ingresarDatos();
 
         project.mostrarDatos();
+
+        project.verificarEdad1();
+
+        project.verificarEdad2();
     }
 }
