@@ -52,6 +52,16 @@ public class Aircraft {
 		aircraft2.land();
 		aircraft2.takeOff();
 
+		System.out.println();
+
+		American aircraft3 = new American("9","comercial", 8, "negro", true);
+		aircraft3.fly();
+		aircraft3.land();
+		aircraft3.takeOff();
+
+		aircraft3.numberOfFlights(20);
+		aircraft3.numberOfFlights(10.5);
+		aircraft3.numberOfFlights(1.5,7);
 	}
 
 }
