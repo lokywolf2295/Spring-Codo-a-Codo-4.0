@@ -1,11 +1,12 @@
 package org.example;
 
+import java.util.HashMap;
 import java.util.Iterator;
 
-public class HashMap {
+public class MainHashMap {
     public static void main(String[] args) {
 
-        java.util.HashMap<Integer, String> map = new java.util.HashMap<Integer, String>();
+        HashMap<Integer, String> map = new HashMap<Integer, String>();
         map.put(1, "Casillas");
         map.put(15, "Ramos");
         map.put(3, "Pique");
