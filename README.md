@@ -12,3 +12,5 @@ Este repositorio Contendrá todos los trabajos realizados en el curso de Codo a 
 ## ¿Qué es Codo a Codo 4.0?
 
 Codo a Codo 4.0 es un Programa de enseñanza en Programación, destinado a personas jóvenes y adultas, que cuenten con título secundario. Tiene como objetivo brindar herramientas que faciliten la inserción laboral en el sector IT, necesarias para mejorar la empleabilidad de las personas.
+
+En esta oportunidad, el curso se trata del Framework Spring y sus herramientas como SpringBoot, Security entre otras.
